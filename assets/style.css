@@ -1,0 +1,19 @@
+body{
+    background-image: url("../assets/images/Disney.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    color: darkgreen;
+}
+
+label{
+    color: darkgreen;
+}
+button,
+div,
+form,
+input {
+  margin: 10px;
+}
