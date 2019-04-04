@@ -17,3 +17,7 @@ form,
 input {
   margin: 10px;
 }
+p{
+    color: darkred;
+    font-weight: bold;
+}
