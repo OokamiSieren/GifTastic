@@ -20,7 +20,7 @@ var disneyTopics = ["Mickey Mouse", "Winnie the Pooh", "The Haunted Mansion", "T
 // a function to change the html and display the content
 function displayTopicInfo() {
     var button = $(this).attr("data-name");
-    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=disney" + button + "&api_key=77I0PUbA1CAk0Vz4Je4zQpJIXCNlsHKN&limit=10&offset=0&rating=G&lang=en";
+    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + button + "&api_key=77I0PUbA1CAk0Vz4Je4zQpJIXCNlsHKN&limit=10&offset=0&rating=G&lang=en";
 
     // ajax call for giphs info
     $.ajax({
